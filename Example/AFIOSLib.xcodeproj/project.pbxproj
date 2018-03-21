@@ -16,8 +16,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		18BA2CCFF87B9E09FBAF2C48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		37B9EC7C9CDC2DE52A55700D /* AFIOSLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = AFIOSLib.podspec; path = ../AFIOSLib.podspec; sourceTree = "<group>"; };
+		18BA2CCFF87B9E09FBAF2C48 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		37B9EC7C9CDC2DE52A55700D /* AFIOSLib.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AFIOSLib.podspec; path = ../AFIOSLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
 		6003F591195388D20070C39A /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -27,7 +27,7 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		800871A6FA190566A33AEB5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		800871A6FA190566A33AEB5E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		C6C7EA74A0510C1C2AC70CBA /* Pods_AFIOSLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFIOSLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF2836D87E540D9760E47BCF /* Pods-AFIOSLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFIOSLib_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AFIOSLib_Tests/Pods-AFIOSLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		FEF2EDE89088419B7A36D39E /* Pods-AFIOSLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AFIOSLib_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AFIOSLib_Tests/Pods-AFIOSLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };

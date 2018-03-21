@@ -1,6 +1,6 @@
 use_frameworks!
 target 'AFIOSLib_Tests' do
   pod 'AFIOSLib', :path => '../'
-  
-  
+  pod ‘Socket.IO-Client-Swift’, ‘~> 13.1.0’, :inhibit_warnings => true
+  pod “Texture”
 end

@@ -21,12 +21,13 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/srikanth.android@hotmail.com/AFIOSLib'
+  s.homepage         = 'https://github.com/dondaldo/AFIOSLib'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'srikanth.android@hotmail.com' => 'srikanth@appsfly.io' }
-  s.source           = { :git => 'https://github.com/srikanth.android@hotmail.com/AFIOSLib.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/dondaldo/AFIOSLib.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.swift_version   = '4.0'
 
   s.ios.deployment_target = '8.0'
 
@@ -37,6 +38,15 @@ TODO: Add long description of the pod here.
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  #s.frameworks = 'UIKit'
+  s.subspec 'AFCore' do |spec|
+      spec.ios.vendored_frameworks  = 'core.framework'
+  end
+  
+  s.subspec 'AFMicroApp' do |spec|
+      spec.ios.vendored_frameworks  = 'micro_app.framework'
+  end
+  
+  s.dependency 'Socket.IO-Client-Swift', '~> 13.1.0'
+  
 end

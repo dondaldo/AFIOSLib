@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		24420B7F869434FEB406C677D6058F4B /* Pods-AFIOSLib_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED8BA6934CB9C03AABD6EF9F547979D6 /* Pods-AFIOSLib_Tests-dummy.m */; };
+		3299FA6A6D28957F7D5C2136A5EBD2B4 /* Pods-AFIOSLib_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 283E19FAF5DECBCA2F67CBA1C103C71D /* Pods-AFIOSLib_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3C691DFD9C281CCC5DE684AF446E10C3 /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 28EC950E6B0A015ED284F7EAB6B9C0CC /* ReplaceMe.m */; };
+		75F3ED8BC7C5A9436F08FFF929879E20 /* AFIOSLib-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01CB9EBC0A063078D14B7E86335ADB93 /* AFIOSLib-dummy.m */; };
+		88EDA2CDF2BA537F8B8B23C9B0AFA165 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		9D94B2EA493681A7274BDFDE4581B092 /* AFIOSLib-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BACC26A783E19857AED73B00EFFE03E6 /* AFIOSLib-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F067454FDD3CAF24537BD86CD9B8238D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		F3A57C942062715700FFF260 /* micro_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A57C922062715700FFF260 /* micro_app.framework */; };
+		F3A57C952062715700FFF260 /* core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A57C932062715700FFF260 /* core.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		76B62C1D1439F333F4695E973EE0205F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7665481232770E51F29B9493EF63C69A;
+			remoteInfo = AFIOSLib;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01CB9EBC0A063078D14B7E86335ADB93 /* AFIOSLib-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AFIOSLib-dummy.m"; sourceTree = "<group>"; };
+		0B002CC84060A2157F67805A089CFAEB /* Pods-AFIOSLib_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AFIOSLib_Tests-resources.sh"; sourceTree = "<group>"; };
+		0DFC2394819D879A5884B8B7AEFC1C75 /* Pods-AFIOSLib_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AFIOSLib_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		0FBA74ECCFE90114E7BF1AC56FA94907 /* Pods-AFIOSLib_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AFIOSLib_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		11A9B1CF5CB5E2949BD2148CE55053B4 /* AFIOSLib-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFIOSLib-prefix.pch"; sourceTree = "<group>"; };
+		15B0112EC3088A32513BF8C5CF8BDB12 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		15EBDACD1EFC60390196F68245CD0409 /* AFIOSLib.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AFIOSLib.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		27900CDB34168B552031523A91F5F57E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		283E19FAF5DECBCA2F67CBA1C103C71D /* Pods-AFIOSLib_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AFIOSLib_Tests-umbrella.h"; sourceTree = "<group>"; };
+		28EC950E6B0A015ED284F7EAB6B9C0CC /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = AFIOSLib/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		33A5DA47FAA3471C835CAB5B7568B5CF /* Pods-AFIOSLib_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFIOSLib_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4295CDA4F27DDB0D7D179D39778CD509 /* AFIOSLib.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AFIOSLib.xcconfig; sourceTree = "<group>"; };
+		638EB88C5F0722496024D380B8F7243B /* Pods-AFIOSLib_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AFIOSLib_Tests.modulemap"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		69745DF289C6959575434D3CA6112C76 /* AFIOSLib.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AFIOSLib.modulemap; sourceTree = "<group>"; };
+		77B8977C34CD81AB787DBA1630917FCF /* Pods-AFIOSLib_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AFIOSLib_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		7D10EBCE91948DBAB6BCB962D9446AFE /* Pods-AFIOSLib_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AFIOSLib_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9C302CC3AB5D7AE25AE8BEB60EFB85F1 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		A8AED2C960735B41E0FB6C848B5AD2E1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4A1D9D1DCAF32CBAED00BD486AAD1AB /* Pods_AFIOSLib_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AFIOSLib_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BACC26A783E19857AED73B00EFFE03E6 /* AFIOSLib-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AFIOSLib-umbrella.h"; sourceTree = "<group>"; };
+		EC13DD3D2742E675DDCA3A1E33317C7B /* AFIOSLib.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AFIOSLib.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ED8BA6934CB9C03AABD6EF9F547979D6 /* Pods-AFIOSLib_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AFIOSLib_Tests-dummy.m"; sourceTree = "<group>"; };
+		F3A57C922062715700FFF260 /* micro_app.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = micro_app.framework; sourceTree = "<group>"; };
+		F3A57C932062715700FFF260 /* core.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = core.framework; sourceTree = "<group>"; };
+		F3A57C962062716E00FFF260 /* AFMicroAppProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFMicroAppProvider.h; sourceTree = "<group>"; };
+		F3A57C972062717400FFF260 /* AFMicroAppInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFMicroAppInstance.h; sourceTree = "<group>"; };
+		F3A57C982062717400FFF260 /* AFAppsflyProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAppsflyProvider.h; sourceTree = "<group>"; };
+		F3A57C992062717400FFF260 /* AFLocalStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFLocalStore.h; sourceTree = "<group>"; };
+		F3A57C9A2062717400FFF260 /* AFImageRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFImageRepository.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1D3E89D02527C3AE87002BC453D72A31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88EDA2CDF2BA537F8B8B23C9B0AFA165 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C8635304C9E22750FC488F21340E1F9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F067454FDD3CAF24537BD86CD9B8238D /* Foundation.framework in Frameworks */,
+				F3A57C942062715700FFF260 /* micro_app.framework in Frameworks */,
+				F3A57C952062715700FFF260 /* core.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15816A6BFBED8CC211762185325A6F46 /* Pods-AFIOSLib_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				15B0112EC3088A32513BF8C5CF8BDB12 /* Info.plist */,
+				638EB88C5F0722496024D380B8F7243B /* Pods-AFIOSLib_Tests.modulemap */,
+				0DFC2394819D879A5884B8B7AEFC1C75 /* Pods-AFIOSLib_Tests-acknowledgements.markdown */,
+				0FBA74ECCFE90114E7BF1AC56FA94907 /* Pods-AFIOSLib_Tests-acknowledgements.plist */,
+				ED8BA6934CB9C03AABD6EF9F547979D6 /* Pods-AFIOSLib_Tests-dummy.m */,
+				7D10EBCE91948DBAB6BCB962D9446AFE /* Pods-AFIOSLib_Tests-frameworks.sh */,
+				0B002CC84060A2157F67805A089CFAEB /* Pods-AFIOSLib_Tests-resources.sh */,
+				283E19FAF5DECBCA2F67CBA1C103C71D /* Pods-AFIOSLib_Tests-umbrella.h */,
+				33A5DA47FAA3471C835CAB5B7568B5CF /* Pods-AFIOSLib_Tests.debug.xcconfig */,
+				77B8977C34CD81AB787DBA1630917FCF /* Pods-AFIOSLib_Tests.release.xcconfig */,
+			);
+			name = "Pods-AFIOSLib_Tests";
+			path = "Target Support Files/Pods-AFIOSLib_Tests";
+			sourceTree = "<group>";
+		};
+		308C095285D7204B787787A40578AA38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC13DD3D2742E675DDCA3A1E33317C7B /* AFIOSLib.framework */,
+				B4A1D9D1DCAF32CBAED00BD486AAD1AB /* Pods_AFIOSLib_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C4C9AA4916FA2B600C05C34FA0CD255 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				15EBDACD1EFC60390196F68245CD0409 /* AFIOSLib.podspec */,
+				9C302CC3AB5D7AE25AE8BEB60EFB85F1 /* LICENSE */,
+				27900CDB34168B552031523A91F5F57E /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		4A315A2A5121175AEE6A8DBAECE53958 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				15816A6BFBED8CC211762185325A6F46 /* Pods-AFIOSLib_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		56CA56313F8A7BD6E534D1CFDAD76B8A /* AFIOSLib */ = {
+			isa = PBXGroup;
+			children = (
+				F3A57C932062715700FFF260 /* core.framework */,
+				F3A57C922062715700FFF260 /* micro_app.framework */,
+				F3A57C982062717400FFF260 /* AFAppsflyProvider.h */,
+				F3A57C9A2062717400FFF260 /* AFImageRepository.h */,
+				F3A57C992062717400FFF260 /* AFLocalStore.h */,
+				F3A57C972062717400FFF260 /* AFMicroAppInstance.h */,
+				F3A57C962062716E00FFF260 /* AFMicroAppProvider.h */,
+				28EC950E6B0A015ED284F7EAB6B9C0CC /* ReplaceMe.m */,
+				3C4C9AA4916FA2B600C05C34FA0CD255 /* Pod */,
+				E7015F14435C52ED7FCFD04F51A7FD8B /* Support Files */,
+			);
+			name = AFIOSLib;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				92A7A7AA41770E8CED39CBA3086ABF73 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				308C095285D7204B787787A40578AA38 /* Products */,
+				4A315A2A5121175AEE6A8DBAECE53958 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		92A7A7AA41770E8CED39CBA3086ABF73 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56CA56313F8A7BD6E534D1CFDAD76B8A /* AFIOSLib */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E7015F14435C52ED7FCFD04F51A7FD8B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				69745DF289C6959575434D3CA6112C76 /* AFIOSLib.modulemap */,
+				4295CDA4F27DDB0D7D179D39778CD509 /* AFIOSLib.xcconfig */,
+				01CB9EBC0A063078D14B7E86335ADB93 /* AFIOSLib-dummy.m */,
+				11A9B1CF5CB5E2949BD2148CE55053B4 /* AFIOSLib-prefix.pch */,
+				BACC26A783E19857AED73B00EFFE03E6 /* AFIOSLib-umbrella.h */,
+				A8AED2C960735B41E0FB6C848B5AD2E1 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/AFIOSLib";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		26A50C613DEF005F82CFBDCDF16049CE /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D94B2EA493681A7274BDFDE4581B092 /* AFIOSLib-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A970D0DFD12FD1388AE13AB3FE84165E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3299FA6A6D28957F7D5C2136A5EBD2B4 /* Pods-AFIOSLib_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7665481232770E51F29B9493EF63C69A /* AFIOSLib */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C304FB5CF81F07AFCB41FBE44D68F5F0 /* Build configuration list for PBXNativeTarget "AFIOSLib" */;
+			buildPhases = (
+				C939D8541C2DC5A19EBAD83F8A37076D /* Sources */,
+				C8635304C9E22750FC488F21340E1F9C /* Frameworks */,
+				26A50C613DEF005F82CFBDCDF16049CE /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AFIOSLib;
+			productName = AFIOSLib;
+			productReference = EC13DD3D2742E675DDCA3A1E33317C7B /* AFIOSLib.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		C093D67575DF0B07BFBB7D06FDFA37AC /* Pods-AFIOSLib_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 394222E2BDA5B8FF00C7B4F293DD838D /* Build configuration list for PBXNativeTarget "Pods-AFIOSLib_Tests" */;
+			buildPhases = (
+				7F8931E105734A2B471A13FBFB005DA9 /* Sources */,
+				1D3E89D02527C3AE87002BC453D72A31 /* Frameworks */,
+				A970D0DFD12FD1388AE13AB3FE84165E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7CA7112AEC544669F6FF83F8EF75E285 /* PBXTargetDependency */,
+			);
+			name = "Pods-AFIOSLib_Tests";
+			productName = "Pods-AFIOSLib_Tests";
+			productReference = B4A1D9D1DCAF32CBAED00BD486AAD1AB /* Pods_AFIOSLib_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 308C095285D7204B787787A40578AA38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7665481232770E51F29B9493EF63C69A /* AFIOSLib */,
+				C093D67575DF0B07BFBB7D06FDFA37AC /* Pods-AFIOSLib_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F8931E105734A2B471A13FBFB005DA9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				24420B7F869434FEB406C677D6058F4B /* Pods-AFIOSLib_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C939D8541C2DC5A19EBAD83F8A37076D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75F3ED8BC7C5A9436F08FFF929879E20 /* AFIOSLib-dummy.m in Sources */,
+				3C691DFD9C281CCC5DE684AF446E10C3 /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7CA7112AEC544669F6FF83F8EF75E285 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = AFIOSLib;
+			target = 7665481232770E51F29B9493EF63C69A /* AFIOSLib */;
+			targetProxy = 76B62C1D1439F333F4695E973EE0205F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3F3C4D2822F3BD900DAAE0BBD817271F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77B8977C34CD81AB787DBA1630917FCF /* Pods-AFIOSLib_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AFIOSLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AFIOSLib_Tests/Pods-AFIOSLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AFIOSLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		80D61A2CF3B502EA49B5B31F7568E21F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4295CDA4F27DDB0D7D179D39778CD509 /* AFIOSLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFIOSLib/AFIOSLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFIOSLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFIOSLib/AFIOSLib.modulemap";
+				PRODUCT_NAME = AFIOSLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8222D4D1E26977D8F93577E3D8A96286 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 33A5DA47FAA3471C835CAB5B7568B5CF /* Pods-AFIOSLib_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AFIOSLib_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AFIOSLib_Tests/Pods-AFIOSLib_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_AFIOSLib_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		ADBCD3BCCCEDF293C3D0937185AA3D57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4295CDA4F27DDB0D7D179D39778CD509 /* AFIOSLib.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AFIOSLib/AFIOSLib-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AFIOSLib/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AFIOSLib/AFIOSLib.modulemap";
+				PRODUCT_NAME = AFIOSLib;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */,
+				827269710C98D60C14D46BC6AF9BF728 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		394222E2BDA5B8FF00C7B4F293DD838D /* Build configuration list for PBXNativeTarget "Pods-AFIOSLib_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8222D4D1E26977D8F93577E3D8A96286 /* Debug */,
+				3F3C4D2822F3BD900DAAE0BBD817271F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C304FB5CF81F07AFCB41FBE44D68F5F0 /* Build configuration list for PBXNativeTarget "AFIOSLib" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				80D61A2CF3B502EA49B5B31F7568E21F /* Debug */,
+				ADBCD3BCCCEDF293C3D0937185AA3D57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
