@@ -1,0 +1,6 @@
+use_frameworks!
+target 'AFIOSLib_Tests' do
+  pod 'AFIOSLib', :path => '../'
+  
+  
+end
