@@ -16,6 +16,13 @@
 		F067454FDD3CAF24537BD86CD9B8238D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
 		F3A57C942062715700FFF260 /* micro_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A57C922062715700FFF260 /* micro_app.framework */; };
 		F3A57C952062715700FFF260 /* core.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F3A57C932062715700FFF260 /* core.framework */; };
+		F3A57CC220627F3500FFF260 /* AFImageRepository.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A57CBD20627F3400FFF260 /* AFImageRepository.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A57CC320627F3500FFF260 /* core.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A57CBE20627F3400FFF260 /* core.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A57CC420627F3500FFF260 /* AFLocalStore.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A57CBF20627F3500FFF260 /* AFLocalStore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A57CC520627F3500FFF260 /* AFMicroAppInstance.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A57CC020627F3500FFF260 /* AFMicroAppInstance.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A57CC620627F3500FFF260 /* AFAppsflyProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A57CC120627F3500FFF260 /* AFAppsflyProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A57CC920627F4300FFF260 /* AFMicroAppProvider.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A57CC720627F4300FFF260 /* AFMicroAppProvider.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F3A57CCA20627F4300FFF260 /* micro_app.h in Headers */ = {isa = PBXBuildFile; fileRef = F3A57CC820627F4300FFF260 /* micro_app.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +67,13 @@
 		F3A57C982062717400FFF260 /* AFAppsflyProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAppsflyProvider.h; sourceTree = "<group>"; };
 		F3A57C992062717400FFF260 /* AFLocalStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFLocalStore.h; sourceTree = "<group>"; };
 		F3A57C9A2062717400FFF260 /* AFImageRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFImageRepository.h; sourceTree = "<group>"; };
+		F3A57CBD20627F3400FFF260 /* AFImageRepository.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFImageRepository.h; sourceTree = "<group>"; };
+		F3A57CBE20627F3400FFF260 /* core.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = core.h; sourceTree = "<group>"; };
+		F3A57CBF20627F3500FFF260 /* AFLocalStore.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFLocalStore.h; sourceTree = "<group>"; };
+		F3A57CC020627F3500FFF260 /* AFMicroAppInstance.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFMicroAppInstance.h; sourceTree = "<group>"; };
+		F3A57CC120627F3500FFF260 /* AFAppsflyProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFAppsflyProvider.h; sourceTree = "<group>"; };
+		F3A57CC720627F4300FFF260 /* AFMicroAppProvider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFMicroAppProvider.h; sourceTree = "<group>"; };
+		F3A57CC820627F4300FFF260 /* micro_app.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = micro_app.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -150,6 +164,13 @@
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
+				F3A57CC720627F4300FFF260 /* AFMicroAppProvider.h */,
+				F3A57CC820627F4300FFF260 /* micro_app.h */,
+				F3A57CC120627F3500FFF260 /* AFAppsflyProvider.h */,
+				F3A57CBD20627F3400FFF260 /* AFImageRepository.h */,
+				F3A57CBF20627F3500FFF260 /* AFLocalStore.h */,
+				F3A57CC020627F3500FFF260 /* AFMicroAppInstance.h */,
+				F3A57CBE20627F3400FFF260 /* core.h */,
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				92A7A7AA41770E8CED39CBA3086ABF73 /* Development Pods */,
 				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
@@ -204,6 +225,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D94B2EA493681A7274BDFDE4581B092 /* AFIOSLib-umbrella.h in Headers */,
+				F3A57CC220627F3500FFF260 /* AFImageRepository.h in Headers */,
+				F3A57CC320627F3500FFF260 /* core.h in Headers */,
+				F3A57CC420627F3500FFF260 /* AFLocalStore.h in Headers */,
+				F3A57CC520627F3500FFF260 /* AFMicroAppInstance.h in Headers */,
+				F3A57CC920627F4300FFF260 /* AFMicroAppProvider.h in Headers */,
+				F3A57CCA20627F4300FFF260 /* micro_app.h in Headers */,
+				F3A57CC620627F3500FFF260 /* AFAppsflyProvider.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
