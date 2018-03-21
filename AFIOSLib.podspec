@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AFIOSLib'
-  s.version          = '0.0.2'
+  s.version          = '0.0.3'
   s.summary          = 'A short description of AFIOSLib.'
 
 # This description is used to generate tags and improve search results.
@@ -37,7 +37,7 @@ TODO: Add long description of the pod here.
   #   'AFIOSLib' => ['AFIOSLib/Assets/*.png']
   # }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
+  s.public_header_files = 'Pod/Classes/**/*.h'
   #s.frameworks = 'UIKit'
   s.subspec 'AFCore' do |spec|
       spec.ios.vendored_frameworks  = 'core.framework'
